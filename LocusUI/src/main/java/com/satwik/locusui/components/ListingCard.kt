@@ -29,6 +29,7 @@ import coil.compose.AsyncImage
 import com.satwik.locusui.theme.White
 import com.satwik.locusui.theme.poppins
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ListingCard(
     modifier:Modifier = Modifier,
@@ -97,6 +98,7 @@ fun ListingCard(
 
 
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Preview
 @Composable
 fun SpacesCardPreview(){
