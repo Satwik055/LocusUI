@@ -68,4 +68,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation(project(":LocusUI"))
+//    implementation(project("com.github.Satwik055:LocusUI:1.1"))
+
 }

@@ -24,11 +24,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Column {
-                        SpacesButton(
-                            modifier = Modifier.height(60.dp),
-                            text = "Press Me",
-                            onClick = {/*TODO*/}
-                        )
+                        SpacesButton(text = "sdasd", onClick = {/*TODO*/})
+
                     }
 
                 }
